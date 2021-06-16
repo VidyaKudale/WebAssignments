@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    height: 100vh;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #eeb0b0;
+    text-transform: uppercase;
+}
+.logo{
+    height: 100px;
+    padding: auto; 
+}
+.main{
+    background-image: url("https://source.unsplash.com/1600x900/?coffee");
+}
+.icon-bar{
+    background:tomato;
+}
+li a{
+    color: black ;
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first{
+    color: #fff;
+    background-color: tomato;
+    transition: background 0.5s;
+}
+a.btn-first:hover{
+    color: #333;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(8, 8, 8);   
+    box-shadow: 5px 5px 10px #999;
+}
+a.btn-second{
+    color: #333;
+    background-color: #fff;
+    border: 1px solid tomato;
+    transition: background 0.5s;
+}
+a.btn-second:hover{
+    color: #fff;
+    background-color: tomato;
+    border: 1px solid rgb(8, 8, 8);
+    box-shadow: 5px 5px 10px #999;
+
+
+}
+
+.banner-info, .banner-image{
+    margin: 40px 0;
+}
+.big-text{
+    font-size: 50px;
+    margin: 20px 0;
+    color: tomato;
+}
